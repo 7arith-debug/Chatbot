@@ -13,7 +13,7 @@ public class HarithChatbot extends JFrame {
     private JButton btnSend, btnClear;
 
     
-    private static final String GEMINI_API_KEY = "API_KEY_REMOVED_FOR_SECURITY";
+    private static final String GEMINI_API_KEY = "";
     private static final String GEMINI_API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
                     + GEMINI_API_KEY;
@@ -194,3 +194,4 @@ public class HarithChatbot extends JFrame {
         SwingUtilities.invokeLater(() -> new HarithChatbot().setVisible(true));
     }
 }
+
